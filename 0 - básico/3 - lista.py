@@ -73,8 +73,12 @@ print lista
 
 ### apagar elementos
 
+print 'Apagar'
 print lista
 del lista[0]
+print lista
+
+lista.remove('e')
 print lista
 
 ### inserindo elementos
